@@ -50,4 +50,4 @@ The computationally perturbed data is either LS-test or Vox2-test perturbed with
 For perturbations, [PGD](https://arxiv.org/abs/1706.06083) has been used with cross-entropy loss as loss function, a clipping of 0.1, a perturbation rate of 0.0005 and 10 epochs (for WavLM models) or 100 epochs (for M5 models).
 
 
-For more information, please refer to our paper "Vocal adversaries in gender inference attacks" or feel free to contact [Loes](loes.vanbemmel@ru.nl) for questions.
+For more information, please refer to our paper "Beyond Neural-on-Neural Approaches to Speaker Gender Protection" or feel free to contact [Loes](loes.vanbemmel@ru.nl) for questions.

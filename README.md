@@ -1,8 +1,8 @@
 # VocalAdversary2022 # 
-## extended results for the 'Vocal adversaries in gender inference attacks' paper. ##
+## extended results for the 'Beyond Neural-on-Neural Approaches to Speaker Gender Protection' paper. ##
 
 Excel sheets contain results split up into datasets,
-"Voxceleb_accuracyresults.xlsx" contains results on the Voxceleb2 test aac set, while "Librispeech_accuracyresults.xlsx" contains results on the Librispeech test-clean set.
+"Voxceleb_accuracyresults.xlsx" contains results on the Voxceleb2 test aac set, while "Librispeech_accuracyresults.xlsx" contains results on the Librispeech test-clean set. "VocalAdversary_accuracy.xlsx" contains results for our own recorded speech adaptations for the vocal adversary, including a brief description of each adaptation.
 
 
 Overview of data: 

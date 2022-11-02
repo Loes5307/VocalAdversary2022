@@ -6,6 +6,9 @@
 # Author(s): Zhuoran Liu and Loes van Bemmel
 ########################################################################################
 
+import numpy as np
+import torch as t
+import torch.nn.functional as F
 
 """
 The PGD

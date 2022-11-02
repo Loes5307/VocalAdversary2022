@@ -1,0 +1,20 @@
+# instantiate the x-vector network lightning module config object
+_target_: src.networks.wavLM.WavLMGenderClassifierConfig
+
+
+# model to load for feature extraction
+huggingface_id: microsoft/wavlm-base
+embedding_size: 768
+
+# freeze options
+freeze_cnn: false
+freeze_transformer: false
+num_steps_freeze_cnn: -1 # always
+num_steps_freeze_transformer: 0 # never
+
+# classifier shape
+num_fc1: 512
+num_fc2: 256
+
+# dropout
+drop_prob: 0.1

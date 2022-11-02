@@ -1,0 +1,13 @@
+# instantiate the x-vector network lightning module config object
+_target_: src.networks.xvector.XVectorGenderClassifierConfig
+
+# feature extractor shape
+num_in_channels: 40
+num_out_channels: 512
+
+# classifier shape
+num_fc1: 256
+num_fc2: 128
+
+# dropout
+drop_prob: 0.1

@@ -1,0 +1,7 @@
+# instantiate the m5 network lightning module config object
+_target_: src.networks.m5.M5GenderClassifierConfig
+
+n_input: 1
+n_output: 2
+stride: 16
+n_channel: 32

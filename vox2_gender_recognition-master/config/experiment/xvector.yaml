@@ -1,0 +1,26 @@
+# @package _global_
+defaults:
+  - override /callbacks: default
+  - override /data/gender_datapipe: default_datapipe
+  - override /data/module: voxceleb
+  - override /network: xvector
+  - override /optim/algo: adam
+  - override /optim/schedule: cyclic
+  - override /optim/loss: cross_entropy
+  - override /trainer: trainer_gpu
+
+trainer:
+  max_steps: 50_000
+  precision: 16
+  val_check_interval: 3125
+
+optim:
+  algo:
+    lr: 1e-4
+  schedule:
+    scheduler:
+      step_size_up: 6250
+      step_size_down: 6250
+
+tag:
+  - xvector

@@ -43,7 +43,7 @@ To access the virtual environment, activate it with `poetry shell` or prepend `p
 
 ## Data preparation
 
-See [https://gitlab.science.ru.nl/nvaessen/data_utility](https://gitlab.science.ru.nl/nvaessen/data_utility).
+See [data_utility](../data_utility-main/readme.md).
 
 ## Setting up the environment
 

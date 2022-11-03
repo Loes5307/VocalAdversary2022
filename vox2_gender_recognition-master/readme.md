@@ -43,7 +43,7 @@ To access the virtual environment, activate it with `poetry shell` or prepend `p
 
 ## Data preparation
 
-See [data_utility](../data_utility-main/readme.md).
+See [data_utility](https://github.com/Loes5307/VocalAdversary2022/tree/main/data_utility-main).
 
 ## Setting up the environment
 
